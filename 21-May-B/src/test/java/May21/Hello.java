@@ -18,9 +18,10 @@ public class Hello {
 		System.setProperty("webdriver.chrome.driver","E:\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
-		driver.get("https://www.w3schools.com/html/html_tables.asp");
-	Tabledata tabledata=new Tabledata(driver);
-	tabledata.performMultipleaction();
+		/*
+		 * driver.get("https://www.w3schools.com/html/html_tables.asp"); Tabledata
+		 * tabledata=new Tabledata(driver); tabledata.performMultipleaction();
+		 */
 
 	}
 
