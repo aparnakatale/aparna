@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-25T12:27:26 IST" name="Suite" finished-at="2022-09-25T12:27:32 IST" duration-ms="6022">
+    <groups>
+    </groups>
+    <test started-at="2022-09-25T12:27:26 IST" name="Firefoxtest" finished-at="2022-09-25T12:27:32 IST" duration-ms="6022">
+      <class name="May21.TestngClass">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:May21.TestngClass@6aba2b86]" started-at="2022-09-25T12:27:26 IST" name="launchBrowser" finished-at="2022-09-25T12:27:30 IST" duration-ms="4574" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openapplication()[pri:0, instance:May21.TestngClass@6aba2b86]" started-at="2022-09-25T12:27:30 IST" name="openapplication" finished-at="2022-09-25T12:27:32 IST" duration-ms="1391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapplication -->
+        <test-method signature="testcase()[pri:0, instance:May21.TestngClass@6aba2b86]" started-at="2022-09-25T12:27:32 IST" name="testcase" finished-at="2022-09-25T12:27:32 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:May21.TestngClass@6aba2b86]" started-at="2022-09-25T12:27:32 IST" name="logout" finished-at="2022-09-25T12:27:32 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:May21.TestngClass@6aba2b86]" started-at="2022-09-25T12:27:32 IST" name="closebrowser" finished-at="2022-09-25T12:27:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- May21.TestngClass -->
+    </test> <!-- Firefoxtest -->
+  </suite> <!-- Suite -->
+</testng-results>
