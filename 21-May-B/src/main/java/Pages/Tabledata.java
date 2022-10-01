@@ -14,6 +14,7 @@ public class Tabledata {
 	//private List<WebElement> tabledta;
 	
 	
+	
 	@FindAll
 	({
 		@FindBy(xpath="//table[@id='customers']//tr[2]//td"),
@@ -25,11 +26,14 @@ public class Tabledata {
 	
 	
 	public Tabledata(WebDriver driver)
+		
 	{
+		
 		PageFactory.initElements(driver, this);
 	}
 	public void performMultipleaction()
 	{
+		System.out.println("hi");
 		System.out.println(multipleElement.size());
 		for(int i=0;i<multipleElement.size();i++)
 		{
